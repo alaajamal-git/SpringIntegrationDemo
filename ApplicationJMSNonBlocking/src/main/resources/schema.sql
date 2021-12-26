@@ -1,0 +1,2 @@
+DROP TABLE IF EXISTS user_entity_model;
+CREATE TABLE user_entity_model(id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(250) NOT NULL, password VARCHAR(250) NOT NULL, user_id VARCHAR(250), UNIQUE (username));
