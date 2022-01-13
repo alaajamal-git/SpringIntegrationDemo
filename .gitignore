@@ -1,3 +1,4 @@
-/.metadata/
-ApplicationEventsDemo
-Flux
+/*
+!.gitignore
+!/SpringIntegrationDemo
+!/RSserver

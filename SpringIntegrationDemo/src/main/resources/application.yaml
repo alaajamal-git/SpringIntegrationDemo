@@ -1,0 +1,13 @@
+project: 
+   mongo: 
+     string: mongodb+srv://alaa_123:Alaajamal123@cluster0.vu6kb.mongodb.net/logs?retryWrites=true&w=majority
+spring:
+  h2:
+    console:
+      enabled: true
+      settings:
+        web-allow-others: true
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb?options=DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE;DATABASE_TO_UPPER=false
+    username: sa
+    password: 
