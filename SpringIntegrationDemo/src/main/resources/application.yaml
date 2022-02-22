@@ -1,6 +1,6 @@
 project: 
    mongo: 
-     string: mongodb+srv://alaa_123:Alaajamal123@cluster0.vu6kb.mongodb.net/logs?retryWrites=true&w=majority
+     string: mongodb+srv://user??:??????@cluster0.vu6kb.mongodb.net/logs?retryWrites=true&w=majority
 spring:
   h2:
     console:
